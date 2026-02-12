@@ -1,0 +1,33 @@
+
+.cardContainer {
+	width:256px;
+	height:414px;
+	background-color:gray;
+}
+
+
+#frontOfCard{
+    float:left; /* add this */
+    border: 1px solid red;
+	}
+	
+#backOfCard {
+    border: 1px solid green;
+    overflow: hidden; /* if you don't want #second to wrap below #first */
+}
+
+#UIDiv{
+	float:right;
+}
+
+#cardFaceImage{
+	width:256px;
+	height:414px;
+}
+
+#cardIdon
+{
+	float:left;
+	width:56px;
+	height:56x;
+}
